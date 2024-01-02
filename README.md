@@ -5,6 +5,8 @@
   <img src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph2.PNG" alt="Image 2" style="width:49%;">
 </div>
 
+<strong>Ooops, the code is not meant to be readeble, but give it a try if you want to</strong><br>
+
 An application that visits an wikipedia site, gets all wikipedia links, and goes trough all of those links.
 <br>
 This keeps going until there is nothing more to search or the user quits.
@@ -12,8 +14,7 @@ This keeps going until there is nothing more to search or the user quits.
 This will also be displayed with a graph in real-time as the search is happening.
 <br>
 
-<strong>The code is not meant to be readeble</strong>
-<br><br>
+<br>
 <strong>The Important files that tackels the problem is: </strong>
 <ul>
   <li>WebsiteSearcher</li>
@@ -26,7 +27,8 @@ This will also be displayed with a graph in real-time as the search is happening
   <li>WikiNodeVertexShader.vert</li>
   <li>BufferCreator.h</li>
 </ul> 
-<br>
+(all in the OpenGL map)
+<br><br>
 <strong>Controlls</strong><br>
 WASD - To move<br>
 Scroll - Zoom in and out (might be kinda weird)<br>
