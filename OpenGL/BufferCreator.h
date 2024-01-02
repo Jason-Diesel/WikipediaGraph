@@ -107,36 +107,6 @@ uint32_t CreateInstanceBuffer(std::vector<T>& instances)
     GLTest(glBindVertexArray(0));
     
     return buff;
-    
-    /*
-    uint32_t buff = 0;
-
-    glGenBuffers(1, &buff);
-    glBindBuffer(GL_ARRAY_BUFFER, buff);
-    glBufferData(GL_ARRAY_BUFFER, instances.size() * sizeof(T), instances.data(), GL_DYNAMIC_DRAW);
-
-    std::size_t vec4Size = sizeof(glm::vec4);
-    glEnableVertexAttribArray(1);
-    glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, vec4Size, (void*)0);
-    glEnableVertexAttribArray(3);
-    glVertexAttribPointer(3, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (void*)0);
-    glEnableVertexAttribArray(4);
-    glVertexAttribPointer(4, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (void*)(1 * vec4Size));
-    glEnableVertexAttribArray(5);
-    glVertexAttribPointer(5, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (void*)(2 * vec4Size));
-    glEnableVertexAttribArray(6);
-    glVertexAttribPointer(6, 4, GL_FLOAT, GL_FALSE, 4 * vec4Size, (void*)(3 * vec4Size));
-
-    glVertexAttribDivisor(3, 1);
-    glVertexAttribDivisor(4, 1);
-    glVertexAttribDivisor(5, 1);
-    glVertexAttribDivisor(6, 1);
-
-    GLTest(glBindBuffer(GL_ARRAY_BUFFER, 0));
-    GLTest(glBindVertexArray(0));
-
-    return buff;
-    */
 }
 
 template <typename T>
