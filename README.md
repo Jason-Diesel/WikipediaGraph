@@ -1,7 +1,7 @@
 # WikipediaGraphForUpload
 
-<img style="width:50%" src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph1.PNG">
-<img src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph2.PNG">
+<img style="width:50%; float:left" src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph1.PNG">
+<img style="width:50%; float:right" src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph2.PNG">
 
 An application that visits an wikipedia site, gets all wikipedia links, and goes trough all of those links.
 <br>
