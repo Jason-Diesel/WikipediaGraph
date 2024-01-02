@@ -36,6 +36,8 @@ G - Prints all websites with nr of connections, number of websites searched, num
 RightClick - Searches QuadNodeTree for a node at mouse position.<br><br>
 
 <strong>The RightClick will only work in 1920x1080 if not screenSpaceX and screenSpaceY is changed to the size of the current window (My bad here sorry)</strong>
+<br>
+BTW if you wanna do this the more right way, you should probably download wikipedia https://en.wikipedia.org/wiki/Wikipedia:Database_download. (I haven't done this myself so you can't ask me)
 
 Watch video on the topic
 <a href="https://youtu.be/Rvapb45jigU">Link To Youtube video</a>
