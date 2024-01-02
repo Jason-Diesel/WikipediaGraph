@@ -1,5 +1,7 @@
 # WikipediaGraphForUpload
 
+<img src="https://github.com/Jason-Diesel/WikipediaGraph/blob/master/GrapgImagesForReadme/Graph1.PNG">
+
 An application that visits an wikipedia site, gets all wikipedia links, and goes trough all of those links.
 <br>
 This keeps going until there is nothing more to search or the user quits.
