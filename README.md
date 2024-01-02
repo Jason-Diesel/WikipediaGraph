@@ -23,6 +23,8 @@ This will also be displayed with a graph in real-time as the search is happening
   <li>WikiGraphScene</li>
   <li>NodeQuadTree</li>
   <li>Edge</li>
+  <li>WikiNodeVertexShader.vert</li>
+  <li>BufferCreator.h</li>
 </ul> 
 <br>
 <strong>Controlls</strong><br>
